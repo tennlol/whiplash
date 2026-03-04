@@ -21,10 +21,10 @@ def run():
     port = find_free_port(3000)
     directory = os.getcwd()
 
-    print(f"⚡ WHIPLASH v{__version__}")
-    print(f"serving: {directory}")
-    print(f"port: {port}")
-    print("status: locked in\n")
+    print(f"Whiplash v{__version__}")
+    print(f"Serving: {directory}")
+    print(f"Localhost port: {port}")
+    print("Status: Active\n")
 
     handler = http.server.SimpleHTTPRequestHandler
 
